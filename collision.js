@@ -1,3 +1,11 @@
+//P1 and P2 are two objects with the properties
+//OLDX, The X value of the last tick
+//OLDY, the Y value of the last tick
+//XVELOCITY, the difference between X and OLDX
+//YVELOCITY, the difference between Y and OLDY
+//WIDTH, width of player, widens the player in pixels right
+//HEIGHT, height of player, lengthens the player in pixels down
+
 function collisionX(p1, p2){
 
   if(p1.XVELOCITY == 0 && p2.XVELOCITY == 0) return;
